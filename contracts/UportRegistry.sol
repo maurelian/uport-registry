@@ -1,5 +1,5 @@
 pragma solidity ^0.4.3;
-contract UportRegistry1{
+contract UportRegistry{
   event AttributesSet(address indexed _sender, uint _timestamp);
 
   uint public version;
@@ -7,7 +7,7 @@ contract UportRegistry1{
 
   mapping(address => bytes) public ipfsAttributeLookup;
 
-  function UportRegistry1(address _previousPublishedVersion) {
+  function UportRegistry(address _previousPublishedVersion) {
     version = 1;
     previousPublishedVersion = _previousPublishedVersion;
   }
