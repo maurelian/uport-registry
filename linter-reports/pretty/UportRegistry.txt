@@ -1,0 +1,49 @@
+
+In contracts/UportRegistry.sol, line 2:
+contract UportRegistry{
+^-- WARNING: ContractStatement 'UportRegistry' must be preceded by a 2-line gap.
+^-- ERROR: 'UportRegistry': There should be only a single space and no comments or line break between contract declaration and opening brace.
+
+In contracts/UportRegistry.sol, line 3:
+  event AttributesSet(address indexed _sender, uint _timestamp);
+  ^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 5:
+  uint public version;
+  ^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 6:
+  address public previousPublishedVersion;
+  ^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 8:
+  mapping(address => bytes) public ipfsAttributeLookup;
+  ^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 10:
+  function UportRegistry(address _previousPublishedVersion) {
+  ^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 13:
+  }
+^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 15:
+  function setAttributes(bytes ipfsHash) {
+  ^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 18:
+  }
+^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 20:
+  function getAttributes(address personaAddress) constant returns(bytes) {
+  ^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+In contracts/UportRegistry.sol, line 22:
+  }
+^-- WARNING: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
+
+
+1 error, 11 warnings found.
+
