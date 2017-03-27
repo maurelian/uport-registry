@@ -12,3 +12,7 @@ The following error and warning counts were found:
 
 1 error, 11 warnings found.
 
+The errors were reviewed, and all were related to whitespace in some form. 
+
+__Recommendation:__ This is not a significant issue for security purposes, but the use of a linter during standard testing is encouraged.  
+
