@@ -1,12 +1,2 @@
 contracts/UportRegistry.sol:2:0: warning: ContractStatement 'UportRegistry' must be preceded by a 2-line gap.
 contracts/UportRegistry.sol:2:0: error: 'UportRegistry': There should be only a single space and no comments or line break between contract declaration and opening brace.
-contracts/UportRegistry.sol:3:2: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:5:2: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:6:2: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:8:2: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:10:2: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:13:0: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:15:2: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:18:0: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:20:2: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
-contracts/UportRegistry.sol:22:0: warning: Incorrect indentation: Make sure you use 4 SPACES per level and don't precede the code by any comments.
